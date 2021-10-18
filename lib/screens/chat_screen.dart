@@ -156,7 +156,7 @@ class MessageBubble extends StatelessWidget {
         crossAxisAlignment: isMe ? CrossAxisAlignment.end : CrossAxisAlignment.start,
         children: [
           Text(sender,style: TextStyle(
-            fontSize: 12.0,
+            fontSize: 11.5,
             color: Colors.blueAccent,
           ),),
 
@@ -168,7 +168,7 @@ class MessageBubble extends StatelessWidget {
                 bottomLeft: Radius.circular(30.0),
                 topRight: Radius.circular(30.0)),
 
-            elevation: 5.0,
+            elevation: 4.5,
             color: isMe? Colors.lightBlueAccent : Colors.white,
             child: Padding(
               padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
